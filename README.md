@@ -34,3 +34,4 @@
 
 ### 使用Django调试工具条
 
+docker run -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=Jzd@fonet234' -p 1533:1433 --name sql_server -d mcr.microsoft.com/mssql/server:latest
